@@ -1,0 +1,42 @@
+input {
+    width: 200px;
+    height: 30px; /* Increased height for better user experience */
+    border: 1px solid #e49114;
+    outline: none;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form horizontally */
+    justify-content: center; /* Centers the form vertically */
+    height: 100vh; /* Takes up full screen height */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #e49114;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cf7f0b;
+}
